@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+
+.board-game{
+
+  /* width: 80%;
+  margin: auto; */
+}
+
+.row{
+  width: 100%;
+  align-items: center;
+
+
+  display: inline-block;
+  /* padding: 10px; */
+  /* position: relative; */
+  background-color: #fff;
+  /* margin: 10px; */
+}
+
+
+.square{
+
+  width: 100px;
+  height: 100px;
+padding: 42px;
+  /* width: 70px;
+  height: 30px;  */
+  text-align: center;
+  border:2px solid gray;
+  border-radius: 1%;
+  background-color: #E8562A;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.play-again{
+  height: 30px;
+  width: 200px;
+  background-color: #CCFF00;
+  outline: none;
+  border:none;
+
+}
