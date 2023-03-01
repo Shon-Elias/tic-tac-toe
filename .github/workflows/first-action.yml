@@ -1,0 +1,10 @@
+name: First Wrokflow
+on: workflow_dispatch
+jobs:
+   shon-first-job: 
+     runs-on: macos-11    
+     steps: 
+      - name: Print greeting!
+        run: echo "Hello World"
+      - name: NAME SECOND STEP
+        run: echo "Welcom Shon"
